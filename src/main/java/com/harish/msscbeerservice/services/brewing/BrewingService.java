@@ -1,8 +1,7 @@
-package com.harish.msscbeerservice.services;
+package com.harish.msscbeerservice.services.brewing;
 
 import com.harish.msscbeerservice.config.JmsConfig;
 import com.harish.msscbeerservice.domain.Beer;
-import com.harish.msscbeerservice.events.BeerEvent;
 import com.harish.msscbeerservice.events.BrewBeerEvent;
 import com.harish.msscbeerservice.repositories.BeerRepository;
 import com.harish.msscbeerservice.services.inventory.BeerInventoryService;
