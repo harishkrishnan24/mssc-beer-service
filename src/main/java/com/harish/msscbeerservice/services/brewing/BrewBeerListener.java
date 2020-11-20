@@ -2,8 +2,8 @@ package com.harish.msscbeerservice.services.brewing;
 
 import com.harish.msscbeerservice.config.JmsConfig;
 import com.harish.msscbeerservice.domain.Beer;
-import com.harish.msscbeerservice.events.BrewBeerEvent;
-import com.harish.msscbeerservice.events.NewInventoryEvent;
+import guru.sfg.common.events.BrewBeerEvent;
+import guru.sfg.common.events.NewInventoryEvent;
 import com.harish.msscbeerservice.repositories.BeerRepository;
 import com.harish.msscbeerservice.web.model.BeerDto;
 import lombok.RequiredArgsConstructor;
