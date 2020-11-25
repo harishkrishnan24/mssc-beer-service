@@ -1,9 +1,9 @@
 package com.harish.msscbeerservice.web.controller;
 
 import com.harish.msscbeerservice.services.BeerService;
-import com.harish.msscbeerservice.web.model.BeerDto;
-import com.harish.msscbeerservice.web.model.BeerPagedList;
-import com.harish.msscbeerservice.web.model.BeerStyleEnum;
+import guru.sfg.brewery.model.BeerDto;
+import guru.sfg.brewery.model.BeerPagedList;
+import guru.sfg.brewery.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;

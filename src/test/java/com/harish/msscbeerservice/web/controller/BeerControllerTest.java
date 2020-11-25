@@ -3,9 +3,8 @@ package com.harish.msscbeerservice.web.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.harish.msscbeerservice.bootstrap.BeerLoader;
 import com.harish.msscbeerservice.services.BeerService;
-import com.harish.msscbeerservice.web.model.BeerDto;
-import com.harish.msscbeerservice.web.model.BeerStyleEnum;
-import org.junit.jupiter.api.BeforeEach;
+import guru.sfg.brewery.model.BeerDto;
+import guru.sfg.brewery.model.BeerStyleEnum;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -21,7 +20,6 @@ import static org.mockito.ArgumentMatchers.anyBoolean;
 import static org.mockito.BDDMockito.given;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @WebMvcTest(BeerController.class)

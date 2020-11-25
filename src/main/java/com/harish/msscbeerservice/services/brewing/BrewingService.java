@@ -2,7 +2,7 @@ package com.harish.msscbeerservice.services.brewing;
 
 import com.harish.msscbeerservice.config.JmsConfig;
 import com.harish.msscbeerservice.domain.Beer;
-import guru.sfg.common.events.BrewBeerEvent;
+import guru.sfg.brewery.model.events.BrewBeerEvent;
 import com.harish.msscbeerservice.repositories.BeerRepository;
 import com.harish.msscbeerservice.services.inventory.BeerInventoryService;
 import com.harish.msscbeerservice.web.mappers.BeerMapper;
